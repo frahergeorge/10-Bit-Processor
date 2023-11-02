@@ -2,9 +2,9 @@ module controller
 (
 	input wire [9:0] INSTR,
 	input wire T,
-	output wire IMM,
+	output wire [1:0] IMM,
 	output wire Rin,
-	output wire Rout,
+	output wire [1:0] Rout,
 	output wire ENW,
 	output wire ENR,
 	output wire Ain,
