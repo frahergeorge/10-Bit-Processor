@@ -6,7 +6,7 @@ module Counter
 	input wire CLRb, // Clear
 	input wire LD,	//	Load
 	input wire [N-1:0] D,	//
-	output wire [N-1:0] Q // output of Q
+	output wire [N-1:0] Q // output of Q a.k.a CNT
 );
 
 	parameter N = 8;
