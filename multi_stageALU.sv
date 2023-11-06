@@ -18,5 +18,7 @@ module multi_stageALU(
 
 );
 
+	wire [5:0] instruction;
+	assign instruction{OP[9:8], OP[3:0]};
 
 endmodule
